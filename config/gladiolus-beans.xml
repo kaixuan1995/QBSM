@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+
+	<!-- 配置vo由哪些po组成，并且指定po的插入顺序 -->
+	<vo id="voucherFormBean" class="com.qbsm.web.formbean.VoucherFormBeano">
+		<po class="com.qbsm.bean.Voucher" order="3"></po> <!-- order="插入顺序" -->
+		<po class="com.qbsm.bean.User" order="1"></po>
+		<po class="com.qbsm.bean.Storehouse" order="2"></po>
+	</vo>
+
+</beans>

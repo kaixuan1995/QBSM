@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<!-- 通过配置id的值，得到你需要的代理化对象实例,得到Dao层的代理 -->
+	<type id="updateDao">
+		<!-- 配置代理类对象的类名 -->
+		<LogClassName>com.qbsm.proxy.UpdateDaoProxy</LogClassName>
+		<!-- 配置被代理对象的类名 -->
+		<ProxyName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</ProxyName>
+	</type>
+	
+	<!-- 通过配置id的值，得到你需要的代理化对象实例,得到Dao层的代理 -->
+	<type id="updateDao">
+		<!-- 配置代理类对象的类名 -->
+		<LogClassName>com.qbsm.proxy.UpdateDaoProxy</LogClassName>
+		<!-- 配置被代理对象的类名 -->
+		<ProxyName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</ProxyName>
+	</type>
+	
+</resources>

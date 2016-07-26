@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<service>
+		<!-- 登录 -->
+	<serviceName id="MenberInfoServiceImpl.login">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>login</MethodName>
+	</serviceName>
+		<!-- 查询个人消息 -->
+	<serviceName id="MenberInfoServiceImpl.queryMessageFormBean">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>queryMessageFormBean</MethodName>
+	</serviceName>
+	<serviceName id="MenberInfoServiceImpl.queryCount">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>queryCount</MethodName>
+	</serviceName>
+	<serviceName id="MenberInfoServiceImpl.queryIndividualPerformFormBean">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>queryIndividualPerformFormBean</MethodName>
+	</serviceName>
+	<serviceName id="MenberInfoServiceImpl.queryUserNotGys">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>queryUserNotGys</MethodName>
+	</serviceName>
+	<serviceName id="MenberInfoServiceImpl.queryUserNotGysCount">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>queryUserNotGysCount</MethodName>
+	</serviceName>
+		<!-- 通过id查询用户 -->
+	<serviceName id="MenberInfoServiceImpl.queryUser">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>queryUser</MethodName>
+	</serviceName>
+		<!-- 增加供应商 -->
+	<serviceName id="MenberInforAction.savegongyinshang">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>saveApplyer</MethodName>
+	</serviceName>
+	<!-- 物资信息管理 申请添加物资信息     -->
+	<serviceName id="PurchaseManageAction.saveApplyNewGoods">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>saveApplyNewGoods</MethodName>
+	</serviceName>
+	<!--到货管理 验收入库      -->
+	<serviceName id="PurchaseManageAction.queryYanShouGoods">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>queryYanShouGoods</MethodName>
+	</serviceName>
+	<serviceName id="PurchaseManageAction.queryYanShouGoodsCount">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>queryYanShouGoodsCount</MethodName>
+	</serviceName>
+	<serviceName id="PurchaseManageAction.yanshouRuKu">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>yanshouRuKu</MethodName>
+	</serviceName>
+	<!--采购管理 采购计划  -->
+	<serviceName id="PurchaseManageAction.queryPurchasePlan">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>queryPurchasePlan</MethodName>
+	</serviceName>
+	<!-- 获得所有用户 -->
+	<serviceName id="MenberInforAction.queryUser">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>queryUser</MethodName>
+	</serviceName>
+	<serviceName id="MenberInforAction.queryCount">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>queryCount</MethodName>
+	</serviceName>
+	<!-- 对用户信息的增删改 -->
+	<serviceName id="MenberInforAction.saveyonghuxinxiliebiaoadd">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>saveUser</MethodName>
+	</serviceName>
+	<serviceName id="MenberInforAction.saveyonghuxinxiliebiaodel">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>deleteUser</MethodName>
+	</serviceName>
+	<serviceName id="MenberInforAction.saveyonghuxinxiliebiaoedit">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>updateUser</MethodName>
+	</serviceName>
+	<!-- 获得科室列表 -->
+	<serviceName id="MenberInforAction.queryOffice">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>queryOffice</MethodName>
+	</serviceName>
+		<!-- 获得仓库列表 -->
+	<serviceName id="SystemManageAction.queryStorehouse">
+		<serviceImplName>com.qbsm.service.systemManageService.SystemManageServiceImpl</serviceImplName>
+		<MethodName>queryStorehouse</MethodName>
+	</serviceName>
+	<serviceName id="SystemManageAction.queryCount">
+		<serviceImplName>com.qbsm.service.systemManageService.SystemManageServiceImpl</serviceImplName>
+		<MethodName>queryCount</MethodName>
+	</serviceName>
+	<!-- 仓库列表增删改 -->
+	<serviceName id="SystemManageAction.savecangkuguanliadd">
+		<serviceImplName>com.qbsm.service.systemManageService.SystemManageServiceImpl</serviceImplName>
+		<MethodName>saveStorehouse</MethodName>
+	</serviceName>
+	<serviceName id="SystemManageAction.savecangkuguanlidel">
+		<serviceImplName>com.qbsm.service.systemManageService.SystemManageServiceImpl</serviceImplName>
+		<MethodName>deleteStorehouse</MethodName>
+	</serviceName>
+	<serviceName id="SystemManageAction.savecangkuguanliedit">
+		<serviceImplName>com.qbsm.service.systemManageService.SystemManageServiceImpl</serviceImplName>
+		<MethodName>updateStorehouse</MethodName>
+	</serviceName>
+		<!-- 获得仓库分区列表(获得所有) -->
+	<serviceName id="SystemManageAction.queryPlace">
+		<serviceImplName>com.qbsm.service.systemManageService.SystemManageServiceImpl</serviceImplName>
+		<MethodName>queryPlace</MethodName>
+	</serviceName>
+		<!-- 仓库分区增删改 -->
+	<serviceName id="SystemManageAction.savecangkuguanliPlaceadd">
+		<serviceImplName>com.qbsm.service.systemManageService.SystemManageServiceImpl</serviceImplName>
+		<MethodName>savePlace</MethodName>
+	</serviceName>
+	<serviceName id="SystemManageAction.savecangkuguanliPlaceedit">
+		<serviceImplName>com.qbsm.service.systemManageService.SystemManageServiceImpl</serviceImplName>
+		<MethodName>updatePlace</MethodName>
+	</serviceName>
+	<serviceName id="SystemManageAction.savecangkuguanliPlacedel">
+		<serviceImplName>com.qbsm.service.systemManageService.SystemManageServiceImpl</serviceImplName>
+		<MethodName>deletePlace</MethodName>
+	</serviceName>
+	<!-- 获得所有物资单位管理 -->
+	<serviceName id="MenberInforAction.queryWordbook">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>queryWordbook</MethodName>
+	</serviceName>
+		<!-- 对获得所有物资单位管理的增删改 -->
+	<serviceName id="MenberInforAction.savewuzidanweiguanliadd">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>saveWordbook</MethodName>
+	</serviceName>
+	<serviceName id="MenberInforAction.savewuzidanweiguanlidel">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>deleteWordbook</MethodName>
+	</serviceName>
+	<serviceName id="MenberInforAction.savewuzidanweiguanliedit">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>updateWordbook</MethodName>
+	</serviceName>
+	<!--物资列表(未审核和审核失败)  -->
+	<serviceName id="PurchaseManageAction.savexinxiwodeshenqing2del">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>deleteApplyNewGoods</MethodName>
+	</serviceName>
+	<!-- 对获得所有科室的增删改 -->
+	<serviceName id="MenberInforAction.savekeshiguanliadd">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>saveOffice</MethodName>
+	</serviceName>
+	<serviceName id="MenberInforAction.savekeshiguanliedel">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>deleteOffice</MethodName>
+	</serviceName>
+	<serviceName id="MenberInforAction.savekeshiguanliedit">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>updateOffice</MethodName>
+	</serviceName>	
+	<!-- 物资信息管理 审核信息申请  -->
+	<serviceName id="StoreManageAction.queryApplyNewGoods">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryApplyNewGoods</MethodName>
+	</serviceName>
+	<!-- 审核物资添加 -->
+	<serviceName id="StoreManageAction.updateApplyNewGoods">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>updateApplyNewGoods</MethodName>
+	</serviceName>
+	<!-- 检测人员  物资申请 申请领用  提交-->
+	<serviceName id="StoreManageAction.saveApply">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>saveApply</MethodName>
+	</serviceName>
+		<!-- 检测人员  物资申请 申请退用  提交-->
+	<serviceName id="StoreManageAction.saveTuiYongApply">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>saveTuiYongApply</MethodName>
+	</serviceName>
+		<!-- 检测人员  采购申请 申请采购   提交-->
+	<serviceName id="StoreManageAction.saveApply">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>saveApply</MethodName>
+	</serviceName>
+		<!-- 仓库调度管理 申请仓库物资调度 添加物质列表 -->
+	<serviceName id="StoreManageAction.saveShopping">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>saveShopping</MethodName>
+	</serviceName>
+	<serviceName id="StoreManageAction.queryShopping">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryShopping</MethodName>
+	</serviceName>
+		<serviceName id="StoreManageAction.updateShopping">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>updateShopping</MethodName>
+	</serviceName>
+		<serviceName id="StoreManageAction.deleteShopping">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>deleteShopping</MethodName>
+	</serviceName>
+	<serviceName id="StoreManageAction.passShopping">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>passShopping</MethodName>
+	</serviceName>
+		<!-- 物资申请 我的申请  -->
+	<serviceName id="StoreManageAction.queryMyApplyCount">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryMyApplyCount</MethodName>
+	</serviceName>
+		<serviceName id="StoreManageAction.queryMyApply">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryMyApply</MethodName>
+	</serviceName>
+	 <!-- 入库管理判断是否通过 -->
+	<serviceName id="StoreManageAction.checkStoreApplyFormBean">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>checkStoreApplyFormBean</MethodName>
+	</serviceName>
+		 <!-- 物资管理 申请退货 是否通过 -->
+	<serviceName id="StoreManageAction.checkReturnSales">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>checkReturnSales</MethodName>
+	</serviceName>
+	<!--物资信息管理 审核信息申请    是否通过 -->
+	<serviceName id="StoreManageAction.saveshenhexinxishenqing">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>updateApplyNewGoods</MethodName>
+	</serviceName>
+	<!-- 物资管理 申请退货 是否通过 -->
+	<serviceName id="StoreManageAction.checkReturnUse">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>checkReturnUse</MethodName>
+	</serviceName>
+		<!-- 申请管理 审核采购申请  是否通过 -->
+	<serviceName id="StoreManageAction.checkApply">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>checkApply</MethodName>
+	</serviceName>
+	<!-- 通过申请单id获得  仓库分区 -->
+	<serviceName id="StoreManageAction.queryPlace">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryPlace</MethodName>
+	</serviceName>
+		<!-- 获得我的信息申请(新物资申请) -->
+	<serviceName id="StoreManageAction.queryStoreApplyDFormBean">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryStoreApplyDFormBean</MethodName>
+	</serviceName>
+	<serviceName id="StoreManageAction.queryCount">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryCount</MethodName>
+	</serviceName>
+	<serviceName id="StoreManageAction.queryCheckCount">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryCheckCount</MethodName>
+	</serviceName>
+		<serviceName id="StoreManageAction.queryOurselfStoreApplyCount">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryOurselfStoreApplyCount</MethodName>
+	</serviceName>
+		<serviceName id="StoreManageAction.queryCheckStoreCount">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryCheckStoreCount</MethodName>
+	</serviceName>
+	<!--仓库调度管理 申请仓库物资调度  -->
+	<serviceName id="StoreManageAction.queryGoods">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryGoods</MethodName>
+	</serviceName>
+	<!-- 获得物资列表 -->
+	<serviceName id="StoreManageAction.queryGoodsFormBean.queryAllGoods">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryAllGoods</MethodName>
+	</serviceName>
+	<serviceName id="StoreManageAction.queryGoodsFormBean.queryLookInStoreApply">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryLookInStoreApply</MethodName>
+	</serviceName>
+	<!-- 获得物资列表 -->
+	<serviceName id="StoreManageAction.queryGoodsFormBean">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryGoodsFormBean</MethodName>
+	</serviceName>
+	<serviceName id="StoreManageAction.queryGoodsFormBeanCount">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryGoodsFormBeanCount</MethodName>
+	</serviceName>
+	<!--物资申请领用列表 -->
+	<serviceName id="StoreManageAction.queryGoodsManageFormBean">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryGoodsManageFormBean</MethodName>
+	</serviceName>
+	<serviceName id="StoreManageAction.queryCount.queryAllGoodsCount">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryAllGoodsCount</MethodName>
+	</serviceName>
+	<!--  采购人员  单据处理 	 -->
+	<serviceName id="PurchaseManageAction.queryVoucherFormBean">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>queryVoucherFormBean</MethodName>
+	</serviceName>
+	<!-- 单据处理   显示详细单据信息 -->
+	<serviceName id="PurchaseManageAction.queryDetailVoucher">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>queryDetailVoucher</MethodName>
+	</serviceName>
+		<!--供应商列表查询(两个角色都可以查询) -->
+	<serviceName id="PurchaseManageAction.queryApplyer">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>queryApplyer</MethodName>
+	</serviceName>
+	<serviceName id="PurchaseManageAction.queryCount">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>queryCount</MethodName>
+	</serviceName>
+	<serviceName id="PurchaseManageAction.queryPurchasePlanCount">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>queryPurchasePlanCount</MethodName>
+	</serviceName>
+	<!-- 采购管理 审核申请  -->
+		<serviceName id="PurchaseManageAction.queryCaiGouApply">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>queryCaiGouApply</MethodName>
+	</serviceName>
+	<serviceName id="PurchaseManageAction.queryCaiGouApplyCount">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>queryCaiGouApplyCount</MethodName>
+	</serviceName>
+	<serviceName id="PurchaseManageAction.queryDetailApply">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>queryDetailApply</MethodName>
+	</serviceName>
+	<serviceName id="PurchaseManageAction.checkCaiGouApply">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>checkCaiGouApply</MethodName>
+	</serviceName>
+	<serviceName id="PurchaseManageAction.queryDetailApplyCount">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>queryDetailApplyCount</MethodName>
+	</serviceName>
+	<!--采购管理 审核申请  -->
+	<serviceName id="PurchaseManageAction.queryPurchaseManageFormBean">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>queryPurchaseManageFormBean</MethodName>
+	</serviceName>
+	<!-- 获得角色名 -->
+	<serviceName id="MenberInforAction.queryRole">
+		<serviceImplName>com.qbsm.service.systemManageService.SystemManageServiceImpl</serviceImplName>
+		<MethodName>queryRole</MethodName>
+	</serviceName>
+		<!-- 获得仓库名 -->
+	<serviceName id="MenberInforAction.queryOffice">
+		<serviceImplName>com.qbsm.service.menberInfoService.MenberInfoServiceImpl</serviceImplName>
+		<MethodName>queryOffice</MethodName>
+	</serviceName>
+		<!-- 获得供应类别 -->
+	<serviceName id="SystemManageAction.queryType">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryType</MethodName>
+	</serviceName>
+		<!-- 获得物资类别 -->
+	<serviceName id="StoreManageAction.queryGoodsType">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryGoodsType</MethodName>
+	</serviceName>
+	<!-- 物资申请 申请退用  -->
+	<serviceName id="StoreManageAction.queryLingYongGoods">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryLingYongGoods</MethodName>
+	</serviceName>
+		<serviceName id="StoreManageAction.queryLingYongCount">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryLingYongCount</MethodName>
+	</serviceName>
+	<!-- 物资类别  曾删改-->
+	<serviceName id="StoreManageAction.savewuzileibieadd">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>saveGoodsType</MethodName>
+	</serviceName>
+	<serviceName id="StoreManageAction.savewuzileibiedel">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>deleteGoodsType</MethodName>
+	</serviceName>
+	<serviceName id="StoreManageAction.savewuzileibieedit">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>updateGoodsType</MethodName>
+	</serviceName>
+	<!-- 仓库管理员 物资管理 入库管理  -->
+	<serviceName id="StoreManageAction.queryStoreApplyFormBean">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryStoreApplyFormBean</MethodName>
+	</serviceName>
+		<serviceName id="StoreManageAction.queryCheckStoreApply">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryCheckStoreApply</MethodName>
+	</serviceName>
+			<serviceName id="StoreManageAction.queryOurselfStoreApply">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryOurselfStoreApply</MethodName>
+	</serviceName>
+	<serviceName id="StoreManageAction.queryLookInStoreApply">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryLookInStoreApply</MethodName>
+	</serviceName>
+		<!-- 仓库管理员 申请管理 审核退用申请   -->
+	<serviceName id="StoreManageAction.queryCheckStoreApplyFormBean">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryCheckStoreApplyFormBean</MethodName>
+	</serviceName>
+		<!-- 仓库管理员 物资管理 申请退货 -->
+	<serviceName id="StoreManageAction.queryStoreApplyDFormBean">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryStoreApplyDFormBean</MethodName>
+	</serviceName>
+		<!-- 采购人员 物资信息管理 我的申请   -->
+	<serviceName id="PurchaseManageAction.queryOurselfApplyNewGoods">
+		<serviceImplName>com.qbsm.service.purchaseManageService.PurchaseManageServiceImpl</serviceImplName>
+		<MethodName>queryOurselfApplyNewGoods</MethodName>
+	</serviceName>
+			<!-- 系统管理员 物资管理 物资列表    -->
+	<serviceName id="StoreManageAction.savewuziliebiaoedit">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>updateGoods</MethodName>
+	</serviceName>
+	
+	
+	<!-- 用于系统管理员得到物资列表 -->
+	<serviceName id="StoreManageAction.AdminGoodsInforFormBean_Manage.queryAll">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryAll</MethodName>
+	</serviceName>
+	
+	
+	
+	
+	<!-- 用于系统管理员得到物资列表总数 -->
+	<serviceName id="StoreManageAction.AdminGoodsInforFormBean_Manage.queryCount">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryCount</MethodName>
+	</serviceName>
+	
+	
+	<!-- 用于仓库管理员得到物资列表 -->
+	<serviceName id="StoreManageAction.AdminGoodsInforFormBean_Manage.queryAllGoodsByStorehouse_id">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryAllGoodsByStorehouse_id</MethodName>
+	</serviceName>
+	
+	<!-- 用于仓库管理员得到物资列表总数 -->
+	<serviceName id="StoreManageAction.AdminGoodsInforFormBean_Manage.queryCount">
+		<serviceImplName>com.qbsm.service.storeManageService.StoreManageServiceImpl</serviceImplName>
+		<MethodName>queryCount</MethodName>
+	</serviceName>
+	<!-- 供应商 条形码 物资列表    -->
+	<serviceName id="MaterialIdentityAction.queryBuyBoods">
+		<serviceImplName>com.qbsm.service.materialIdentityService.MaterialIdentityServiceImpl</serviceImplName>
+		<MethodName>queryBuyBoods</MethodName>
+	</serviceName>
+		<!-- 供应商 条形码 物资列表数量    -->
+	<serviceName id="MaterialIdentityAction.queryCount">
+		<serviceImplName>com.qbsm.service.materialIdentityService.MaterialIdentityServiceImpl</serviceImplName>
+		<MethodName>queryCount</MethodName>
+	</serviceName>
+		<!-- 添加条形码信息 -->
+	<serviceName id="Material.addbarcode">
+		<serviceImplName>com.qbsm.service.materialIdentityService.MaterialIdentityServiceImpl</serviceImplName>
+		<MethodName>addBarcodeInfo</MethodName>
+	</serviceName>
+		<!-- 修改 -->
+	<serviceName id="Material.editvoucher">
+		<serviceImplName>com.qbsm.service.materialIdentityService.MaterialIdentityServiceImpl</serviceImplName>
+		<MethodName>editvoucher</MethodName>
+	</serviceName>
+<!-- 查找条形码 -->
+	<serviceName id="Material.findBar">
+		<serviceImplName>com.qbsm.service.materialIdentityService.MaterialIdentityServiceImpl</serviceImplName>
+		<MethodName>findBar</MethodName>
+	</serviceName>
+		<!-- ***数量 -->
+	<serviceName id="Material.queryBarCount">
+		<serviceImplName>com.qbsm.service.materialIdentityService.MaterialIdentityServiceImpl</serviceImplName>
+		<MethodName>queryBarCount</MethodName>
+	</serviceName>
+	<!-- 高级查询 数据分析部分 -->
+
+
+	<!-- 高级查询 获取联动列表 -->
+	<serviceName id="AnalysAction.querySelectList">
+		<serviceImplName>com.qbsm.service.dateAnalysisService.DateAnalysisServiceImpl</serviceImplName>
+		<MethodName>querySelectList</MethodName>
+	</serviceName>
+	
+	<!-- 某时间段 某人 请购 某物资 -->
+	<serviceName id="AnalysAction.queryMySelfApplyBuyByGoods_id">
+		<serviceImplName>com.qbsm.service.dateAnalysisService.DateAnalysisServiceImpl</serviceImplName>
+		<MethodName>queryMySelfApplyBuyByGoods_id</MethodName>
+	</serviceName>
+	
+	<!-- 某时间段 某人 领用 物资 -->
+	<serviceName id="AnalysAction.queryApplyGoodsInfo">
+		<serviceImplName>com.qbsm.service.dateAnalysisService.DateAnalysisServiceImpl</serviceImplName>
+		<MethodName>queryApplyGoodsInfo</MethodName>
+	</serviceName>
+	
+	
+	<!-- 某段时间内由某人经手的纳入采购计划单的某类别物资的信息 -->
+	<serviceName id="AnalysAction.queryUseGoodsInfo">
+		<serviceImplName>com.qbsm.service.dateAnalysisService.DateAnalysisServiceImpl</serviceImplName>
+		<MethodName>queryUseGoodsInfo</MethodName>
+	</serviceName>
+
+	
+	<!--  某时间段 某科室 请购/领用 某物资 -->
+	<serviceName id="AnalysAction.queryUseGoodsInfo">
+		<serviceImplName>com.qbsm.service.dateAnalysisService.DateAnalysisServiceImpl</serviceImplName>
+		<MethodName>queryUseGoodsInfo</MethodName>
+	</serviceName>
+	
+	
+	<!-- 某时间段 某仓库 进/出仓 物资-->
+	<serviceName id="AnalysAction.queryStoreAnalysisFormBean">
+		<serviceImplName>com.qbsm.service.dateAnalysisService.DateAnalysisServiceImpl</serviceImplName>
+		<MethodName>queryStoreAnalysisFormBean</MethodName>
+	</serviceName>
+	
+	
+	<!-- 某时间段 某供应商 异常记录 -->
+	<serviceName id="AnalysAction.querySupplierAnalysisFromBean">
+		<serviceImplName>com.qbsm.service.dateAnalysisService.DateAnalysisServiceImpl</serviceImplName>
+		<MethodName>querySupplierAnalysisFromBean</MethodName>
+	</serviceName>
+	
+	<!-- 某时间段 某人 请购 某物资 结果数 -->
+	
+	<!-- 某时间段 某人 领用 某物资 结果数 -->
+
+	<!-- 某时间段 某仓库 进/出仓 物资结果数 -->
+	
+	<!-- 某段时间内由某人经手的纳入采购计划单的某类别物资的信息数量 -->
+
+	<!-- 某时间段 某供应商 异常记录数 -->
+	
+	<!-- 某时间段 某科室 请购/领用 某物资结果数 -->
+	<serviceName id="AnalysAction.queryCount">
+		<serviceImplName>com.qbsm.service.dateAnalysisService.DateAnalysisServiceImpl</serviceImplName>
+		<MethodName>queryCount</MethodName>
+	</serviceName>
+	
+	
+
+	
+	
+	
+</service>
